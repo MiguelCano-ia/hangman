@@ -1,4 +1,4 @@
-const KEYBOARD_WORDS = [
+const KEYBOARD_LETTERS = [
   ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
   ["a", "s", "d", "f", "g", "h", "j", "k", "l", "ñ"],
   ["z", "x", "c", "v", "b", "n", "m"],
@@ -19,7 +19,7 @@ export const Keyboard = ({
 }: Props) => {
   return (
     <div className="flex flex-col items-center gap-2 mt-5">
-      {KEYBOARD_WORDS.map((row, idx) => (
+      {KEYBOARD_LETTERS.map((row, idx) => (
         <div className="flex gap-1 sm:gap-2" key={idx}>
           {row.map((word) => (
             <button
