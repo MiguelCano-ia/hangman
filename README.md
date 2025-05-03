@@ -41,7 +41,7 @@ Este es un juego del Ahorcado desarrollado con **React**, **TypeScript**, **Tail
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/ahorcado.git
+   git clone https://github.com/MiguelCano-ia/hangman.git
    cd ahorcado
    ```
 

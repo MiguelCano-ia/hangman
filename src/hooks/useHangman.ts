@@ -13,10 +13,10 @@ export const useHangman = () => {
 
   const addCorrectLetter = (letter: string) => {
     if (word.toLowerCase().includes(letter)) {
-      setCorrectLetters((prev) => [...prev, letter]);
+      setCorrectLetters([...correctLetters, letter]);
       return;
     }
-    setWrongLetters((prev) => [...prev, letter]);
+    setWrongLetters([...wrongLetters, letter]);
   };
 
   const resetGame = () => {
