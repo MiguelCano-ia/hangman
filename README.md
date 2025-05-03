@@ -42,7 +42,7 @@ Este es un juego del Ahorcado desarrollado con **React**, **TypeScript**, **Tail
 
    ```bash
    git clone https://github.com/MiguelCano-ia/hangman.git
-   cd ahorcado
+   cd hangman
    ```
 
 2. Instala las dependencias
